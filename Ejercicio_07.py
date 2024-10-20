@@ -12,14 +12,13 @@ Ejemplo para los primeros 5 términos de la función de Fibonacci: [0, 1, 1, 2, 
     Quinto término: 3 (1 + 2)
 '''
 
-def serie_fibonacci (número, paso, suma):
-    print (f"Inicio . paso: {paso}, suma: {suma}, número: {número}")
-    while paso < número:
-        print (f"paso: {paso}, suma: {suma}, número: {número}")
-        suma = suma + paso-1
-        paso += 1
-        serie_fibonacci(número-1, paso, suma)
-    return (suma)
+def serie_fibonacci (número):
+  if número <= 0:
+     return 0
+  elif número == 1:
+     return 1
+  else:
+     return fibonacci(n-1) + fibonacci(n-2)
     
 número = int(input("Indique un número: "))  
 serie = serie_fibonacci (número,1,0)

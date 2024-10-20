@@ -1,8 +1,7 @@
 '''
 Ejercicio 4. Función enmascarado_datos :
 Descripción del ejercicio:
-Crea una función que convierta una variable en una cadena de texto y
-enmascare todos los caracteres con el carácter '#', excepto los últimos cuatro.
+Crea una función que convierta una variable en una cadena de texto y enmascare todos los caracteres con el carácter '#', excepto los últimos cuatro.
 '''
 
 def enmascarar_valor(variable):

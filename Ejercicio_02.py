@@ -10,6 +10,6 @@ def promedio (lista):
        suma = sum (num for num in lista)
        return(suma / len(lista))
     except TypeError:
-       return("No se puede hayar la medida de la lista") 
+       return("No se puede hallar la medida de la lista") 
    
 print(promedio(lista_números))
